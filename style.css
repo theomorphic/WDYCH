@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 850px;
+  padding: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 1%;
+  background-color: #fcfefc;
+}
+main .content .travolta {
+  width: 150px;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
